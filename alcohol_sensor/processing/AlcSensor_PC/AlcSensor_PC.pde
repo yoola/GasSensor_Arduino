@@ -15,7 +15,7 @@ User user3 = new User("H03", 3, 0);
 void setup(){
   surface.setSize(400, 400);
   showSerialPorts();
-  myPort1 = new Serial(this,Serial.list()[9], 9600);
+  myPort1 = new Serial(this,Serial.list()[7], 9600);
   //myPort2 = new Serial(this,Serial.list()[7], 9600);
   //myPort3 = new Serial(this,Serial.list()[8], 9600);
 }

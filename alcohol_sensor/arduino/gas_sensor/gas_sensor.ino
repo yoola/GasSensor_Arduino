@@ -1,10 +1,9 @@
 #define Aout A0
-int ledPin = 13;
 
 int val = 0;
 int yellow = 10;
 int green = 11;
-int red = 6;
+int red = 13;
 char state;
 void setup() {
   // put your setup code here, to run once:
@@ -14,7 +13,6 @@ Serial.begin(9600);
 pinMode(yellow,OUTPUT);
 pinMode(green,OUTPUT);
 pinMode(red,OUTPUT);
-pinMode(ledPin,OUTPUT);
 }
 
 void loop() {
@@ -24,7 +22,7 @@ Serial.print(val);
 Serial.print("\n");
 
 
-if(val<300){
+if(val<150){
   
   analogWrite(green,0);
   delay(800);
@@ -33,7 +31,7 @@ if(val<300){
   analogWrite(yellow,0);
   analogWrite(red,0);
   
-}else if(val>=300 && val<= 400){
+}else if(val>=150 && val<= 300){
   
   analogWrite(yellow,100);
   analogWrite(green,100);
