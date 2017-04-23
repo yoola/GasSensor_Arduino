@@ -1,6 +1,6 @@
 # GasSensor_Arduino
 
-See for a description of the project the Documentation.pdf file
+Read the documentation pdf for a description of the project
 
 This repository contains the code for a Arduino version on the computer:
  - run the code in the folder alcohol_sensor/processing/AlcSensor_PC/AlcSensor_PC.pde
@@ -17,4 +17,4 @@ This repository contains the code for a Arduino version on the computer:
   
 In the menu: 
 - go to Android-> sketch permission -> select BLUETOOTH and BLUETOOTH_ADMIN 
-- go to Sketck -> import library -> add library -> select Ketai library
+- go to Sketch -> import library -> add library -> select Ketai library
