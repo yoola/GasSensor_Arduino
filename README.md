@@ -1,5 +1,7 @@
 # GasSensor_Arduino
 
+See for a description of the project the Documentation.pdf file
+
 This repository contains the code for a Arduino version on the computer:
  - run the code in the folder alcohol_sensor/processing/AlcSensor_PC/AlcSensor_PC.pde
  
