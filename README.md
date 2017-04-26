@@ -1,6 +1,6 @@
 # GasSensor_Arduino
 
-Read the documentation pdf for a description of the project
+Read the documentation pdf for a description of the project.
 
 This repository contains the code for a Arduino version on the computer:
  - run the code in the folder alcohol_sensor/processing/AlcSensor_PC/AlcSensor_PC.pde
@@ -11,8 +11,8 @@ This repository contains the code for a Arduino version on the computer:
  
  When running the Android version make sure:
  
- - you are in Andriod mode in the Processing IDE when debugging it
-- to select the right number of the arduino usb device in myPort1 = new Serial(this,Serial.list()[7], 9600); (here it has number 7)
+ - you are in Android mode in the Processing IDE when debugging it
+ - to select the right number of the arduino usb device in myPort1 = new Serial(this,Serial.list()[7], 9600); (here it has number 7)
   => if you don't know the number, run it once, so you find the number listed in the console 
   
 In the menu: 
